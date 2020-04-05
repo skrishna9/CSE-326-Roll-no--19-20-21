@@ -1,0 +1,41 @@
+.{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-size: 23px;
+	overflow-x: hidden;
+    color: blue;
+}
+.food{
+	background-image: url('image/fruit-salads-in-plate-1640774.jpg');
+	background-size: cover;
+	height: 100vh;	
+}
+.list{
+	float: right;
+	margin-top: 60px;
+}
+.list li{
+	display: inline-block;
+	list-style: none;
+	margin-left:60px;
+}
+.list li a{
+	color: #fff;
+	text-decoration:none;
+	font-size: 85%;
+	font-weight: 100;
+}
+.wel{
+	text-align:center;
+	padding-top: 250;
+	color: #ff0000;
+}
+.wel a{
+	background-color:;
+	color:#bf55ec;
+	margin-right: 15px;
+ border: 2px solid #bf55ec;
+ }

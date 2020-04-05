@@ -1,0 +1,36 @@
+<html>
+<head>
+<style>
+</style>
+<script>
+function quantityFormForm(){
+var x = document.forms["Form"]
+["quantity"].value;
+var y = document.forms["Form"]
+["name"].value;
+var z = document.forms["Form"]
+["Pnr"].value;
+var u = document.forms["Form"]
+["Ph No."].value;
+if(x=""||y=""||z=""||u=""){
+alert("Please ensure that all the text-boxes are properly filled");
+return false;
+}
+else
+return true;
+}
+</script>
+</head>
+<body bgcolor="#4169e1">
+<form method="get" action="table.html">
+Enter QUANTITY </br><input type="text" placeholder="XXXXXXXX" maxlength="8" required id="x"/></br>
+First Name</br><input type="text" placeholder=" " maxlength="30" required id="y"/></br>Last Name</br><input type="text" placeholder="  " maxlength="30" required/></br>
+Enter PNR No.</br><input type="text" placeholder="  " maxlength="30" required id="z"/></br>
+Enter SEAT No.</br><input type="text" placeholder="  " maxlength="8" required id="u"/></br>
+<textarea row=10 cols=20>Phone number</textarea>
+</br>
+<input type="radio" name="p"/>SPICY
+<input type="radio" name="p"/>NON-SPICY
+<button type="button"onclick="alert('Thanks for ordering.Your order will be delvered shortly at your seat and payment will be accepted by delivery agent.')">ORDER</button>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.background{
+	background-image:url('image/vegetable-salad-on-top-of-white-ceramic-plate-764925.jpg');
+	background-size:cover;
+	height: 100vh;
+}
+.header{
+	text-align:center;
+	padding-top: 250;
+	color: #ff0000;
+}

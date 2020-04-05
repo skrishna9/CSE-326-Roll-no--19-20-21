@@ -1,0 +1,15 @@
+.{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.background{
+	background-image:url('image/plate-of-prepared-food-1439328.jpg');
+	background-size:cover;
+	height: 100vh;
+}
+.header{
+	text-align:center;
+	padding-top: 250;
+	color: #ff0000;
+}

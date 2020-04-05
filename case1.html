@@ -1,0 +1,32 @@
+<Doctype>
+<html>
+<head>
+   
+</head>
+<body>
+
+<p onclick="alert(9+7)">sum of 9+7</p>
+<p onclick="alert(9-7)">sum of 9-7</p>
+<p onclick="alert(9*7)">sum of 9*7</p>
+<p onclick="alert(9/7)">sum of 9/7</p>
+<p onclick="alert(9%7)">sum of 9%7</p>
+<p onclick="alert(9**7)">Exponention of 9**7</p>
+<p onclick="var a=3;alert(a++);">post increament of 9++</p>
+<p onclick="var a=3;alert(++a);">pre increament of ++9</p>
+ <h1>Assignment operator</h1>
+<p onclick="var a=3;alert(a+=3);">Result of 3+=3</p>
+<p onclick="var a=3;alert(a*=3);">Result of 3*=3</p>
+<p onclick="var a=3;alert(a/=3);">Result of 3/=3</p>
+<p onclick="var a=3;alert(a%=3);">Result of 3%=3</p>
+<p onclick="var a=3;alert(a-=3);">Result of 3-=3</p>
+<hr/>
+<script>
+function add()
+{
+   document.getElementBYId("p1").innerHTML+=3+5;
+}
+</script>
+<p id="p1" onclick="add()">Result of 3+5=</p>
+   
+</body>
+</html>
